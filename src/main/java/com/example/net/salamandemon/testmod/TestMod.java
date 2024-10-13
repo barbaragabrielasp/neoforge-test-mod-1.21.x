@@ -52,6 +52,7 @@ public class TestMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LAURA);
+            event.accept(ModItems.PAULO);
         }
     }
 
